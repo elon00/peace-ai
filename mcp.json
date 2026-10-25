@@ -1,0 +1,55 @@
+{
+  "name": "peace-ai-mcp",
+  "version": "1.0.0",
+  "description": "Peace AI Model Context Protocol Server for Autonomous Planetary Conflict De-escalation, Disarmament Verification, Global Concord & Sacred Non-Violence Protocol",
+  "tools": [
+    {
+      "name": "audit_conflict_escalation_risk",
+      "description": "Analyze cross-border troop movements, diplomatic rhetoric vectors, and resource tension indicators to calculate escalation probability and recommend de-escalation corridors",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "geopolitical_region": {
+            "type": "string"
+          },
+          "belligerent_actors": {
+            "type": "string"
+          },
+          "resource_constraints": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "geopolitical_region",
+          "belligerent_actors"
+        ]
+      }
+    },
+    {
+      "name": "disburse_peacekeeping_sanctuary_grant",
+      "description": "Trigger automated micro-escrow disbursements for verified humanitarian evacuation corridors, civilian sanctuary infrastructure, and post-conflict reconstruction",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "recipient": {
+            "type": "string"
+          },
+          "amount_wei": {
+            "type": "string"
+          },
+          "proof_hash": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "category",
+          "recipient",
+          "amount_wei"
+        ]
+      }
+    }
+  ]
+}
